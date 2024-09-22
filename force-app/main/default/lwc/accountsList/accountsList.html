@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title="Financial Services Account Listing" icon-name="standard:account">
+    <lightning-input data-id="filterInput"
+                     class="slds-m-around_medium"
+                     label="Filter by Account Name"
+                     value={filterName}
+                     placeholder="Search by Account Name"
+                     onchange={handleFilterChange}>
+    </lightning-input>
+    <lightning-datatable key-field="Id"
+                         data={accounts}
+                         columns={columns}
+                         onsort={handleSort}
+                         sorted-by={sortedBy}
+                         sorted-direction={sortedDirection}
+                         draft-values={draftValues}
+                         onrowaction={handleRowAction}
+                         onsave={handleSave}>
+    </lightning-datatable>
+  </lightning-card>
+</template>
