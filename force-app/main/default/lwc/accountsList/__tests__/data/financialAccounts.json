@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "001xx000003NG35AAG",
+    "Name": "Acme Corp",
+    "Phone": "1234567890",
+    "Website": "http://acme.com",
+    "AnnualRevenue": 1000000,
+    "Owner": {
+      "Name": "John Doe"
+    }
+  },
+  {
+    "Id": "001xx000003NG36BBG",
+    "Name": "Global Media",
+    "Phone": "9876543210",
+    "Website": "http://globalmedia.com",
+    "AnnualRevenue": 2000000,
+    "Owner": {
+      "Name": "Jane Doe"
+    }
+  }
+]
