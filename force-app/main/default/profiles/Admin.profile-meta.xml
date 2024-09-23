@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
 <!-- GENERAL INFORMATION -->
 <fullName>Admin</fullName>
-<description>Ystem Administrator profile</description>
+<description>System Administrator profile</description>
 <userLicense>Salesforce</userLicense>
 <custom>false</custom>
 
@@ -408,5 +408,5 @@
     >DefaultOn</visibility></tabVisibilities>
 <tabVisibilities><tab>standard-Account</tab><visibility
     >DefaultOn</visibility></tabVisibilities>
-    
+
 </Profile>

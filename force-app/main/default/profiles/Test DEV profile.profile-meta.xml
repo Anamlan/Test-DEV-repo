@@ -5,6 +5,7 @@
 <description>Test profile</description>
 <userLicense>Salesforce</userLicense>
 <custom>true</custom>
+
 <!-- APPLICATION VISIBILITIES -->
 <applicationVisibilities><application>Consumer_App</application><default
     >true</default><visible>true</visible></applicationVisibilities>
