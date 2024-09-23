@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
 <!-- GENERAL INFORMATION -->
 <fullName>Test DEV profile</fullName>
@@ -6,32 +6,44 @@
 <userLicense>Salesforce</userLicense>
 <custom>true</custom>
 <!-- APPLICATION VISIBILITIES -->
-<applicationVisibilities><application>Consumer_App</application><default>true</default><visible>true</visible></applicationVisibilities>
+<applicationVisibilities><application>Consumer_App</application><default
+    >true</default><visible>true</visible></applicationVisibilities>
 
 <!-- CLASS ACCESSES -->
-<classAccesses><apexClass>AccountController</apexClass><enabled>true</enabled></classAccesses>
+<classAccesses><apexClass>AccountController</apexClass><enabled
+    >true</enabled></classAccesses>
 
 <!-- FIELD PERMISSIONS -->
-<fieldPermissions><editable>true</editable><field>Account.Industry</field><readable>true</readable></fieldPermissions>
-
-<!-- LAYOUT ASSIGNMENTS -->
-<layoutAssignments><layout>Account-Accountlayout - Account Layout Admin</layout><recordType>Account.Aanbiedstroom</recordType></layoutAssignments>
+<fieldPermissions><editable>true</editable><field
+    >Account.Industry</field><readable>true</readable></fieldPermissions>
 
 <!-- RECORDTYPE VISIBILITIES -->
-<recordTypeVisibilities><default>false</default><recordType>Account.Consumer</recordType><visible>true</visible></recordTypeVisibilities>
+<recordTypeVisibilities><default>false</default><recordType
+    >Account.Consumer</recordType><visible
+    >true</visible></recordTypeVisibilities>
 
 <!-- USER PERMISSIONS -->
-<userPermissions><enabled>true</enabled><name>ActivitiesAccess</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>AllowViewKnowledge</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>ChatterInternalUser</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>LightningExperienceUser</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>LightningConsoleAllowedForUser</name></userPermissions>
-<userPermissions><enabled>true</enabled><name>ViewHelpLink</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >ActivitiesAccess</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >AllowViewKnowledge</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >ChatterInternalUser</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >LightningExperienceUser</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >LightningConsoleAllowedForUser</name></userPermissions>
+<userPermissions><enabled>true</enabled><name
+    >ViewHelpLink</name></userPermissions>
 
 <!-- OBJECT PERMISSIONS -->
-<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Account</object><viewAllRecords>false</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete
+    >true</allowDelete><allowEdit>true</allowEdit><allowRead
+    >true</allowRead><modifyAllRecords>false</modifyAllRecords><object
+    >Account</object><viewAllRecords>false</viewAllRecords></objectPermissions>
 
 <!-- TAB VISIBILITIES -->
-<tabVisibilities><tab>Consumer_Page</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<tabVisibilities><tab>Consumer_Page</tab><visibility
+    >DefaultOn</visibility></tabVisibilities>
 
 </Profile>
